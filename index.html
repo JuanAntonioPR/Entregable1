@@ -1,13 +1,76 @@
 <!doctype html>
-<html lang="es">
+<html class="no-js" lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spa & Beauty</title>
+    <meta charset="UTF-8">
+    <title>Spa & Beauty</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Prueba</h1>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.svg" alt="logo GlowQueen">
+        <nav class="nav__navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </nav>
+        <nav class="nav__sign">
+          <ul><img src="./img/ico-search.svg" alt="icono búsqueda"></ul>
+          <ul><img src="./img/ico-cart.svg" alt="icono carrito de la compra"></ul>
+          <ul><a href="#">Sign In</a></ul>
+          <ul><a href="#" class="button">Sign Up</a></ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="content">
+          <h1 class="title">Bring back the beauty and glow of your skin</h1>
+          <p class="description">We provide you various treatments from head to toe using the best product, advanced technology, and affordable price</p>
+          <div class="button__nav">
+            <a href="#" class="button">Book Now</a>
+            <div class="button__nav--with-icon">
+              <img src="./img/ico-play.png" alt="icono play">
+              <a href="#">Watch Video</a>
+            </div>
+          </div>
+          <div class="activities">
+            <article class="activities__article">
+              <img src="./img/ico-treatment.png" alt="icono tratamiento">
+              <span>15+</span>
+              <p>Special Treatment</p>
+            </article>
+            <article class="activities__article">
+              <img src="./img/ico-therapist.png" alt="icono terapia">
+              <span>25+</span>
+              <p>Professional Therapist</p>
+            </article>
+            <article class="activities__article">
+              <img src="./img/ico-herbal.png" alt="icono fórmula">
+              <span>100%</span>
+              <p>Herbal Cream Formula</p>
+            </article>
+          </div>
+        </section>
+        <section class="reviews">
+          <article class="reviews__article">
+            <img src="./img/ico-quote.svg" alt="comillas">
+            <p class="reviews__description">I have a regular schedule to take treatment from GlowQueen, they gave me the best service and treatment ever to maintain the beauty and health of my skin</p>
+            <h4>Sophia Princeton</h4>
+          </article>
+          <article class="reviews__article">
+            <img src="./img/ico-quote.svg" alt="comillas">
+            <p class="reviews__description">For the past few years, I've had a hard time finding the right place for skin care to deal with my complicated skin condition, thank God I found GlowQueen to treat my skin</p>
+            <h4>Tamara Jules</h4>
+          </article>
+        </section>
+      </main>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
