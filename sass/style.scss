@@ -76,14 +76,17 @@ body {
                 .activities {
                     display: flex;
                     margin-top: 30px;
+                    width: max-content;
+                    background-color: white;
+                    border-radius: 15px;
+                    padding: 20px;
+                    z-index: 1;
 
                     .activities__article {
                         display: flex;
+                        width: 33.3%;
                         flex-direction: column;
                         align-items: center;
-                        background-color: white;
-                        border-radius: 15px;
-                        padding: 20px;
                         gap: 20px;
 
                         img {
@@ -144,7 +147,6 @@ body {
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: 90% 100%;
-    z-index: -2
   }
 
   .background-color1 {
