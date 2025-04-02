@@ -11,6 +11,10 @@
         display: flex;
         gap: 40px;
         align-items: center;
+        
+        img:hover {
+            cursor: pointer;
+        }
 
         li {
             list-style: none;
@@ -26,6 +30,8 @@
             &:last-of-type {
                 margin-right: -30px;
             }
+
+            
         }
     }
 
