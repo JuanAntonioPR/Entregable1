@@ -26,7 +26,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
-                margin-top: 40px;
+                margin-top: 10px;
 
                 .title {
                     width: 75%;
@@ -75,6 +75,7 @@ body {
 
                 .activities {
                     display: flex;
+                    margin-top: 30px;
 
                     .activities__article {
                         display: flex;
@@ -151,7 +152,7 @@ body {
     top: 0;
     right: 0;
     width: 35%;
-    height: 88%;
+    height: 77%;
     background-color: ab.$color-fondo;
     z-index: -3;
   }
@@ -161,7 +162,7 @@ body {
     top: 0;
     left: 0;
     width: 65%;
-    height: 88%;
+    height: 77%;
     background-color: ab.$color-fondo-secundario;
     z-index: -3;
   }
