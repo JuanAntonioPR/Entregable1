@@ -1,0 +1,53 @@
+@use "../abstracts/abstracts" as ab;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin-bottom: 38px;
+
+    .nav__navbar ul {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        li {
+            list-style: none;
+
+            a {
+                color: ab.$color-azul-texto;
+
+                &:hover {
+                    color: ab.$color-azul-texto-hover;
+                }
+            }
+
+            &:last-of-type {
+                margin-right: -30px;
+            }
+        }
+    }
+
+    .nav__sign ul {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        padding-right: 120px;
+
+        li {
+            list-style: none;
+            cursor: pointer;
+
+            &:nth-of-type(3) a {
+                margin-left: 40px;
+                color: ab.$color-azul-texto;
+                text-decoration: underline;
+
+                &:hover {
+                    color: ab.$color-azul-texto-hover;
+                }
+            }
+        }
+    }
+}

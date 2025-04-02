@@ -1,0 +1,42 @@
+@use "../abstracts/abstracts" as ab;
+
+h1 {
+    font-size: ab.$sizeXL;
+    color: ab.$color-azul-texto;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+span {
+    font-size: ab.$sizeL;
+    color: ab.$color-azul-texto;
+    font-weight: 400px;
+}
+
+p.description {
+    font-size: ab.$sizeM;
+    color: ab.$color-gris-texto;
+}
+
+p {
+    font-size: ab.$sizeS;
+    color: ab.$color-gris-texto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.reviews__article p {
+    color: ab.$color-negro-texto;
+    font-size: ab.$sizeS;
+}
+
+.reviews__article h4 {
+    color: ab.$color-azul-texto;
+    margin: 10px 0px 0px 0px;
+}
+
+.button__nav--with-icon a {
+    color: ab.$color-azul-texto;
+}
